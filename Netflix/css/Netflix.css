@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 00;
+	font-family: "Roboto", sans-serif;
+	color: white;
+}
+
+body {
+	background-color: black;
+	background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/ab180a27-b661-44d7-a6d9-940cb32f2f4a/8ccb0ade-2be3-4efb-88f9-5bf81cb88722/BR-pt-20231009-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.content {
+	width: 100vw;
+	height: 100vh;
+	background: rgb(0, 0, 0);
+	background: linear-gradient(
+		180deg,
+		rgba(0, 0, 0, 0.6222864145658263) 100%,
+		rgba(9, 9, 121, 0) 100%
+	);
+}
+
+header {
+	height: 6em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 12%;
+}
+
+figure {
+	width: 10em;
+}
+
+header img {
+	width: 100%;
+}
+
+.botoes {
+	width: 15em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.language {
+	font-size: 14px;
+	text-align: center;
+	width: 10em;
+	height: 2.5em;
+	background-color: rgb(0, 0, 0, 0.5);
+	color: white;
+	border-radius: 5px;
+}
+
+.entrar {
+	font-weight: bold;
+	width: 5.5em;
+	height: 2.5em;
+	color: white;
+	background-color: red;
+	border: none;
+	border-radius: 5px;
+}
+
+section {
+	height: 30em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+article {
+	display: flex;
+	height: 40%;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+article h1 {
+	width: 75%;
+	font-size: 50px;
+	text-align: center;
+}
+
+article p {
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.contato {
+	display: flex;
+	height: 8em;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.alinhar {
+	display: flex;
+	width: 100%;
+}
+
+.alinhar input {
+	width: 27em;
+	background-color: rgb(0, 0, 0, 0.5);
+	color: lightgray;
+	padding-left: 1em;
+	font-size: 1em;
+	font-weight: bold;
+	border-radius: 10px;
+	border: 1px solid gray;
+}
+
+.vamos {
+	font-weight: bold;
+	width: 10em;
+	height: 4em;
+	color: white;
+	background-color: red;
+	border: none;
+	border-radius: 5px;
+	font-size: 18px;
+}
